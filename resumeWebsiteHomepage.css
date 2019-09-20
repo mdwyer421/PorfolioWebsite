@@ -1,0 +1,124 @@
+body{
+  background: #CCC;
+}
+
+/* NavBar ----------------------------------- */
+
+#navbarHover a:hover{
+  color: #FFF;
+}
+
+#banner-img{
+  background: url('img/bannerPhoto2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+/* About me ----------------------------------- */
+#aboutMe{
+  margin-top: -200px;
+}
+
+#aboutMe a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 10px;
+}
+#aboutMe span{ /* Somethings not right here couldn't use padding w z y z but could use this*/
+  margin-top: 10px;
+  padding-top: 10px;
+
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  margin-right: 10px;
+  padding-right: 10px;
+
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#aboutMe hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+#myheadshot{
+  transform: rotate(90deg);
+}
+
+/* skills ----------------------------------- */
+#Skills span{
+  margin-top: 10px;
+  padding-top: 10px;
+
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  margin-right: 10px;
+  padding-right: 10px;
+
+  margin-left: 10px;
+  padding-left: 10px;
+}
+#Skills hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+/* Projects ----------------------------------- */
+
+
+#Projects span{
+
+  margin-top: 10px;
+  padding-top: 10px;
+
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  margin-right: 10px;
+  padding-right: 10px;
+
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#Projects hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+@media screen and (max-width: 991px){
+.cardFix {margin-top: 50px; }
+}
+
+.cardBorder{
+  border-top: 3px solid red;
+}
+/* Contact ----------------------------------- */
+
+#Contact span{
+  margin-top: 10px;
+  padding-top: 10px;
+
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+  margin-right: 10px;
+  padding-right: 10px;
+
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+#Contact hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+
+/* Footer ------------------------------------- */
+.containerfooter{
+  width: 100%;
+}
