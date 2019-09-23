@@ -49,6 +49,13 @@ body{
   transform: rotate(90deg);
 }
 
+@media screen and (max-width: 991px){
+.tableFix {
+word-break: break-all;
+}
+}
+
+
 /* skills ----------------------------------- */
 #Skills span{
   margin-top: 10px;
